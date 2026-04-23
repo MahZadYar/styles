@@ -350,7 +350,7 @@
         <else-if type="patent">
           <text macro="title"/>
           <text macro="year-date"/>
-          <text variable="publisher-place"/>
+          <text variable="publisher-place" suffix=". "/>
           <text macro="license"/>
           <text macro="availability"/>
           <text macro="time_data"/>
