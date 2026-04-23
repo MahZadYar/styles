@@ -325,10 +325,12 @@
           <text macro="edition"/>
           <text macro="publisher_block"/>
           <text macro="pages"/>
-          <text macro="isbn"/>
-          <text macro="license"/>
-          <text macro="availability"/>
-          <text macro="time_data"/>
+          <group delimiter=" ">
+            <text macro="isbn"/>
+            <text macro="license"/>
+            <text macro="availability"/>
+            <text macro="time_data"/>
+          </group>
         </else-if>
         <else-if type="paper-conference">
           <text macro="title"/>
