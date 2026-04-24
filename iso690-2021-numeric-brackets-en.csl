@@ -364,9 +364,9 @@
           <text macro="time_data"/>
         </else-if>
         <else>
-          <group suffix=".">
-            <text macro="title" prefix=" "/>
-            <text macro="editor" prefix=" "/>
+          <group delimiter=" " suffix=".">
+            <text macro="title"/>
+            <text macro="editor"/>
           </group>
           <group delimiter=", ">
             <text macro="publisher"/>
