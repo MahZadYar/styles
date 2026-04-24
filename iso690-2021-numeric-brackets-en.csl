@@ -286,7 +286,7 @@
       <choose>
         <if type="book report dataset software" match="any">
           <group delimiter=" ">
-            <text macro="title" prefix=" "/>
+            <text macro="title"/>
             <text macro="edition"/>
             <text macro="version"/>
             <text macro="editor" suffix="."/>
